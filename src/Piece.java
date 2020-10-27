@@ -25,9 +25,13 @@ public abstract class Piece {
     this.king = king;
   }
 
-  public Piece(Object value) {
-
+  public Piece(int value) {
+    this.value=value;
   }
+
+//  public Piece(Object value) {
+//
+//  }
 
 
   public void setValue(int value) {

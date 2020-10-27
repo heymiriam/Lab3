@@ -20,9 +20,7 @@ public Rook(int value) {
     super(value, pawn, knight, bishop, rook, queen, king);
   }
 
-  public Rook(String s) {
-    super(s);
-  }
+
 
   @Override
   public void move(){

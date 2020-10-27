@@ -3,7 +3,7 @@ import javafx.scene.effect.Light.Spot;
 public class Queen extends Piece {
 
 public Queen(int value) {
-  super("9");
+  super(9);
 }
   @Override
   public String toString() {
@@ -14,9 +14,7 @@ public Queen(int value) {
     super(value, pawn, knight, bishop, rook, queen, king);
   }
 
-  public Queen(String s) {
-    super(s);
-  }
+
 
 
   @Override

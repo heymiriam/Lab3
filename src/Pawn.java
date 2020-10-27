@@ -2,7 +2,7 @@ public class Pawn extends Piece {
   boolean promoted;
   Piece newPiece;
   public Pawn(int value) {
-    super("1");
+    super(1);
   }
 //  int value{
 //    value= 1;

@@ -1,7 +1,7 @@
 public class King extends Piece {
 
   public King(int value) {
-    super("1000");
+    super(1000);
   }
   @Override
   public String toString() {

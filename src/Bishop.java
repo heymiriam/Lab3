@@ -3,7 +3,7 @@ import javafx.scene.effect.Light.Spot;
 public class Bishop extends Piece {
 
 public Bishop(int value) {
-  super("3");
+  super(3);
 }
   @Override
   public String toString() {
@@ -14,9 +14,7 @@ public Bishop(int value) {
     super(value, pawn, knight, bishop, rook, queen, king);
   }
 
-  public Bishop(String s) {
-    super(s);
-  }
+
 
   //  @Override
 //  public String toString() {

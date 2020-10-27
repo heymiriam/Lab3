@@ -2,8 +2,8 @@ import javafx.scene.effect.Light.Spot;
 
 public class Knight extends Piece {
 
-public Knight(int value, int knight){
-  super("2");
+public Knight(int value){
+  super(2);
 }
   @Override
   public String toString() {
@@ -14,9 +14,7 @@ public Knight(int value, int knight){
     super(value, pawn, knight, bishop, rook, queen, king);
   }
 
-  public Knight(String s) {
-    super(s);
-  }
+
 
 
 
